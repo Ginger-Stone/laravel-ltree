@@ -12,20 +12,30 @@
     "laravel",
     "php"
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Korben Dallas",
       "email": "pvsaintpe@umbrellio.biz"
     }
   ],
+  "repository": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Ginger-Stone/laravel-pg-extensions"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Ginger-Stone/laravel-common-objects"
+    }
+  ],
   "license": "MIT",
   "require": {
     "php": "^8.3|^8.4",
-    "laravel/framework": "^11.0",
-    "doctrine/dbal": "^3.0",
-    "umbrellio/laravel-pg-extensions": "^7.2",
-    "umbrellio/laravel-common-objects": "*"
+    "laravel/framework": "^12.0",
+    "doctrine/dbal": "^4.4",
+    "umbrellio/laravel-pg-extensions": "dev-master",
+    "umbrellio/laravel-common-objects": "dev-master"
   },
   "require-dev": {
     "umbrellio/code-style-php": "^1.0",
